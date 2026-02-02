@@ -22,7 +22,8 @@ def main():
         )
         vacancies.append(vacancy)
 
-    sorted_dict = sorted(vacancies)
+    sorted_dict = sorted(vacancies, reverse=True)
+    #print([v.salary for v in sorted_dict])
 
 
     vacancies_dict = []
@@ -37,7 +38,7 @@ def main():
         'salary': vacancy.salary,
         'url': vacancy.url,
         'responsibility': vacancy.responsibility
-    } for vacancy in vacancies], salary_range)
+    } for vacancy in sorted_dict], salary_range)
     print('Отфильтрованные вакансии: ')
     for vacancy in filtered_vacancies[:user_number]:
         # print(vacancy)

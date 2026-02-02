@@ -14872,5 +14872,17 @@
     "salary": 11500000.0,
     "url": "https://hh.ru/vacancy/130044080",
     "responsibility": null
+  },
+  {
+    "name": "Разработчик Python (Fastpi) в IT-компанию",
+    "salary": 50000.0,
+    "url": "https://hh.ru/vacancy/130084874",
+    "responsibility": "Fast API. Любишь сдаваться, столкнувшись с пределом своей компетенции. Выполняешь работу не в срок и с плохим качеством. ️ "
+  },
+  {
+    "name": "Backend Middle Python разработчик в команду AI",
+    "salary": 180000.0,
+    "url": "https://hh.ru/vacancy/130105516",
+    "responsibility": "Писать агентов под разные задачи. Поднимать FastAPI сервисы. Работать с Vector DB. Разрабатывать RAG-пайплайны с LangChain/LangGraph. "
   }
 ]
