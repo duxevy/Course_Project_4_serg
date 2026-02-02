@@ -1,7 +1,16 @@
 import pytest
 
 from src.vacancies import Vacancy
+from src.api import HH
+from src.utils import JSONFileWorker
 
+@pytest.fixture
+def fileworker():
+    return JSONFileWorker("tests/test_file.json")
+
+@pytest.fixture
+def hh_api():
+    return HH("python")
 
 @pytest.fixture
 def vacancy():
